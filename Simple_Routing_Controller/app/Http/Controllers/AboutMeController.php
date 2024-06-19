@@ -10,6 +10,8 @@ class AboutMeController extends Controller
 
         return view('About')
                 ->with('name' , 'Arianne Liz I. Gomez')
+                ->with('email', 'ariannegomez03@gmail.com')
+                ->with('address', 'Casantiagoan, San Manuel, Pangasinan')
                 ->with('dateOfBirth' , 'May 19, 2003')
                 ->with('placeOfBirth' , 'Urdaneta City, Pangasinan')
                 ->with('age' , '21 Years Old')

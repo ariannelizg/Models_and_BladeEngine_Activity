@@ -10,11 +10,11 @@ class HobbiesController extends Controller
 
         return view('hobbies')
                 ->with('sing' , 'Singing')
-                ->with('instru' , 'Playing Violin, Ukulele, and Kalimba')
+                ->with('instruments' , 'Playing Violin, Ukulele, and Kalimba')
                 ->with('games' , 'Call of Duty Mobile, and Mobile Legends')
                 ->with('movies' , 'K-drama, Comedy, Horror, RomCom, Romance, C-drama')
                 ->with('sports', 'Badminton, and Volleyball')
-                ->with('kpopid', 'Enhypen, BlackPink, Seventeen, BTS, Twice')
-                ->with('kpophob', 'Collecting photocards and albums, Attending Concerts and Fanmeets');
+                ->with('kpopidol', 'Enhypen, BlackPink, Seventeen, BTS, Twice')
+                ->with('kpopthing', 'Collecting photocards and albums, Attending Concerts and Fanmeets');
     }
 }
